@@ -20,7 +20,7 @@ struct ConnectSocket{
     struct ConnectSocket *next;
 };
 
-#define serverPort 1223
+#define serverPort 1999
 
 //Function Declaration
 struct sockaddr_in *createIPv4Address(const char *, int);
